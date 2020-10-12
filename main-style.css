@@ -1,0 +1,55 @@
+:root {
+   --primary-color: #02b3e4; 
+   --secondary-color: #525c65;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.btn {
+    background: #017a9b;
+    color: #fff;
+    font-size: .8125rem;
+    font-weight: 600;
+    letter-spacing: .09375rem;
+    line-height: 1.8125rem;
+    text-transform: uppercase;
+    text-align: center;
+    height: 2rem;
+    min-width: 131px;
+    width: auto;
+    padding: 0 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+}
+
+.hero-header .btn,
+.explore-container .btn,
+.reference-container .btn {
+    width: 13.75rem;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    height: 3rem;
+    padding: 0 .5rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-size: .813rem;
+    line-height: 2.625rem;
+    border-radius: .25rem;
+    letter-spacing: .125rem;
+    transition: all .3s ease
+}
+
+.btn:hover {
+    background: #016682;
+    transition: 0.5s;
+}
